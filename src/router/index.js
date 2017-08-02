@@ -17,6 +17,8 @@ const router = new VueRouter({
   },{
     path: '/about', component: require('../components/About.vue')
   },{
+    path: '/jump', component: require('../components/jump.vue')
+  },{
     path:'*',redirect:'/home'
   }]
 })
